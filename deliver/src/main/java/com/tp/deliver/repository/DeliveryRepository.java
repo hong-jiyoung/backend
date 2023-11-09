@@ -1,5 +1,10 @@
 package com.tp.deliver.repository;
 
-public class DeliveryRepository {
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.tp.deliver.model.Deliver;
+
+public interface DeliverRepository extends JpaRepository<Deliver, Long> {
 
 }
